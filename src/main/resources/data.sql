@@ -10,5 +10,5 @@ CREATE TABLE "public"."user" (
 "reg_ip" varchar(255) COLLATE "default" NOT NULL
 )WITH (OIDS=FALSE);
 
-INSERT INTO "public"."user" VALUES ('1', 'zhangjianwei@dxy.cn', '123456', 'zhangjianwei', 'admin', '1', '2018-06-24 10:28:58', '192.168.100.110');
+INSERT INTO "public"."user" VALUES ('1', 'co_zjw@163.com', '123456', 'zhangjianwei', 'admin', '1', '2018-06-24 10:28:58', '192.168.100.110');
 ALTER TABLE "public"."user" ADD PRIMARY KEY ("id");
